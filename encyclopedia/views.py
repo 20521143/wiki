@@ -8,3 +8,6 @@ def index(request):
         "entries": util.list_entries()
     })
 
+def cong(request):
+    return render(request, "encyclopedia/cong.html")
+
